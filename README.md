@@ -4,19 +4,19 @@
 
 ## 🇧🇷 Português
 
-### 📌 Visão Geral do Projeto
+###  Visão Geral do Projeto
 
 Este projeto implementa um **pipeline end-to-end de Machine Learning** para **previsão de diabetes**, com foco em **Engenharia de Machine Learning e MLOps**. O objetivo principal não é apenas treinar um modelo preditivo, mas demonstrar como estruturar, rastrear, versionar e avaliar modelos de forma **reproduzível e profissional**, utilizando **MLflow**.
 
 ---
 
-### 🎯 Problema
+###  Problema
 
 Prever a progressão/ocorrência de diabetes a partir de variáveis clínicas, utilizando modelos de Machine Learning supervisionados.
 
 ---
 
-### 📊 Dataset
+###  Dataset
 
 O dataset utilizado é o **Diabetes Dataset** (amplamente utilizado em estudos acadêmicos e benchmarks), contendo variáveis numéricas relacionadas a características clínicas dos pacientes.
 
@@ -25,7 +25,7 @@ O dataset utilizado é o **Diabetes Dataset** (amplamente utilizado em estudos a
 
 ---
 
-### 🧠 Pipeline de Machine Learning
+###  Pipeline de Machine Learning
 
 O pipeline implementado segue as seguintes etapas:
 
@@ -39,7 +39,7 @@ O pipeline implementado segue as seguintes etapas:
 
 ---
 
-### ⚙️ Modelagem e Hyperparameter Tuning
+###  Modelagem e Hyperparameter Tuning
 
 Foi utilizado o algoritmo **Random Forest Regressor**, com ajuste automático de hiperparâmetros, incluindo:
 
@@ -52,7 +52,7 @@ O melhor modelo é selecionado automaticamente com base na métrica de avaliaç�
 
 ---
 
-### 📈 Avaliação
+###  Avaliação
 
 A métrica utilizada para avaliação foi:
 
@@ -62,7 +62,7 @@ Essa métrica permite comparar diferentes execuções (runs) e selecionar o melh
 
 ---
 
-### 🧪 MLflow e MLOps
+###  MLflow e MLOps
 
 O MLflow é utilizado para:
 
@@ -78,7 +78,7 @@ Isso simula um cenário real de produção, onde modelos podem ser registrados e
 
 ---
 
-### ▶️ Como Executar o Projeto
+###  Como Executar o Projeto
 
 1. Criar ambiente virtual
 2. Instalar dependências:
@@ -98,7 +98,7 @@ mlflow ui
 
 ---
 
-### 🧰 Tecnologias Utilizadas
+###  Tecnologias Utilizadas
 
 * Python
 * Scikit-learn
@@ -108,7 +108,7 @@ mlflow ui
 
 ---
 
-### 📌 Conclusão
+###  Conclusão
 
 Este projeto demonstra a transição de um modelo de Machine Learning experimental para um **pipeline rastreável, reproduzível e pronto para produção**, aplicando conceitos fundamentais de **MLOps** e **Engenharia de Machine Learning**.
 
@@ -116,19 +116,19 @@ Este projeto demonstra a transição de um modelo de Machine Learning experiment
 
 ## 🇺🇸 English
 
-### 📌 Project Overview
+###  Project Overview
 
 This project implements an **end-to-end Machine Learning pipeline** for **diabetes prediction**, with a strong focus on **Machine Learning Engineering and MLOps**. The goal is not only to train a predictive model, but to demonstrate how to structure, track, version, and evaluate ML models in a **reproducible and production-oriented way** using **MLflow**.
 
 ---
 
-### 🎯 Problem Statement
+###  Problem Statement
 
 Predict diabetes progression/outcome based on clinical features using supervised Machine Learning models.
 
 ---
 
-### 📊 Dataset
+###  Dataset
 
 The project uses the **Diabetes Dataset**, a widely adopted dataset in academic research and ML benchmarks.
 
@@ -137,7 +137,7 @@ The project uses the **Diabetes Dataset**, a widely adopted dataset in academic 
 
 ---
 
-### 🧠 Machine Learning Pipeline
+###  Machine Learning Pipeline
 
 The implemented pipeline includes:
 
@@ -151,7 +151,7 @@ The implemented pipeline includes:
 
 ---
 
-### ⚙️ Modeling and Hyperparameter Tuning
+###  Modeling and Hyperparameter Tuning
 
 A **Random Forest Regressor** was used, with automated hyperparameter tuning, including:
 
@@ -164,7 +164,7 @@ The best model is automatically selected based on evaluation metrics.
 
 ---
 
-### 📈 Evaluation
+###  Evaluation
 
 The evaluation metric used was:
 
@@ -174,7 +174,7 @@ This metric allows objective comparison between different experiment runs.
 
 ---
 
-### 🧪 MLflow and MLOps
+###  MLflow and MLOps
 
 MLflow is used for:
 
@@ -190,7 +190,7 @@ This approach closely resembles real-world production ML systems.
 
 ---
 
-### ▶️ How to Run the Project
+###  How to Run the Project
 
 1. Create a virtual environment
 2. Install dependencies:
@@ -210,7 +210,7 @@ mlflow ui
 
 ---
 
-### 🧰 Technologies Used
+###  Technologies Used
 
 * Python
 * Scikit-learn
@@ -220,6 +220,6 @@ mlflow ui
 
 ---
 
-### 📌 Conclusion
+###  Conclusion
 
 This project demonstrates the transition from an experimental Machine Learning model to a **reproducible, trackable, and production-ready ML pipeline**, applying key **MLOps and Machine Learning Engineering** principles.
